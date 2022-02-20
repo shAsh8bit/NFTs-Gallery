@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+.container a {
+  color: #b1a8a8;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 90%;
+}
+.nft {
+  position: relative;
+  min-width: 500px;
+  max-width: 40%;
+  margin-right: 20px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.nft button {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border: 2px solid #fff;
+  z-index: 11;
+}
+.nft > button:hover {
+  cursor: pointer;
+  background-color: rgb(198 55 55);
+}
+.nft img,
+video {
+  width: 100%;
+}
+.nft_details {
+  background-color: rgb(46, 46, 44);
+  min-height: 200px;
+  max-width: 550px;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+}
+.nft_details_1 {
+  padding: 1rem;
+  font-size: 18px;
+}
+.container_2 {
+  background-color: rgb(46, 46, 44);
+  min-width: 40%;
+  max-width: 60%;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+}
+.container_2 a {
+  color: #fff;
+}
+.txn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding: 0rem 1rem 2rem 1rem;
+}
+@media (max-width: 375px) {
+table{
+  margin-left: 50px;
+}
+
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 10px 0 0 0;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .nft {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .nft_details {
+    max-width: 100%;
+    margin: 0px;
+  }
+  .nft_details_1 {
+    font-size: 15px;
+    overflow-x: scroll;
+  }
+  .container_2 {
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+  
+}
+@media (max-width: 1028px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+  }
+  .nft {
+    max-width: 60%;
+    margin: 0;
+  }
+  .nft_details {
+    max-width: 100%;
+    margin: 0px;
+  }
+
+  .nft_details_1 {
+    font-size: 17px;
+  }
+  .container_2 {
+    width: 70%;
+  }
+}

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@636&display=swap");
+.main_ {
+  background-color: #fff;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  height:90px;
+  background: #1c274b;
+  z-index: 2;
+}
+
+.navbar_component {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_component span:hover {
+  cursor: pointer;
+}
+.content {
+  background-color: #fff;
+  height: 88%;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  position: absolute;
+  z-index: 1;
+}
+.text h3 {
+  transform: translate(45%, -50%);
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 15px;
+}
+.address {
+  width: 300px;
+  height: 45px;
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.address input {
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding: 0 65px 0 20px;
+  flex: 1;
+}
+.address button {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  border: none;
+  right: 0;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  background: #510aec;
+}
+.bg-image {
+  background-image: url("https://thumbor.forbes.com/thumbor/711x425/https://specials-images.forbesimg.com/imageserve/613df842ca2a4b60e210d8e4/Avatar-project-metaverse/960x0.jpg?fit=scale");
+  filter: blur(8px);
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-right: 3px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+  margin-top: 180px;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(25px);
+}
+.bg-text h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  color: #fff072;
+  text-shadow: 7px 7px 0px #3e55a1;
+}
+/*Scroll-Bar*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,#45f81da2);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(206, 211, 211, 0.144);
+  border-radius: 6px;
+}
+
+@media (max-width: 500px) {
+  .bg-text h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .bg-text h1 {
+    font-size: 30px;
+  }
+}
