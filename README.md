@@ -1,5 +1,6 @@
 
-## Live Link - https://nft-gallery-6c5a9.web.app/
+## Live Link 
+https://nft-gallery-6c5a9.web.app/
 
 ## ScreenShots
 ![Screenshot (358)](https://user-images.githubusercontent.com/69522439/154968393-ec710c06-a6db-451d-866e-58f049b63ab9.png)
