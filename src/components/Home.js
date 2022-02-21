@@ -31,9 +31,6 @@ const Home = () => {
   const handleRandomAddress = () => {
     setSearchTerm("");
     setPlaceholder("fetching.....");
-    // const data = await fetch("https://nfteyez.global/api/accounts/top");
-    // const res = await data.json()
-    // setSearchTerm(res["account"]);
     setSearchTerm(accounts[getRandomInt(accounts.length - 1)]);
     setPlaceholder(initialPlaceHolder);
   };

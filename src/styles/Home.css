@@ -23,7 +23,7 @@
 }
 .content {
   background-color: #fff;
-  height: 88%;
+  height: calc(100% - 90px);
   display: flex;
   justify-content: center;
 }
