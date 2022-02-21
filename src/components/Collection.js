@@ -1,11 +1,11 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import GalleryContext from "../context/GalleryContext";
 import "../styles/Collection.css";
 const Collections = () => {
   const context = useContext(GalleryContext);
-  const { collections, collectionName, loading, countLoading } = context;
+  const { collections, collectionName, countLoading } = context;
   const { acc, collection_id } = useParams();
   let a = collection_id;
 

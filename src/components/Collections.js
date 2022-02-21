@@ -21,7 +21,7 @@ const Collections = () => {
       setLoading(true);
     }
   }, []);
-  // console.log(collections);
+  console.log(collections);
   return (
     <>
       <div className="collection_main">

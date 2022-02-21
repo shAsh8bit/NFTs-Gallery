@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Connection, programs } from "@metaplex/js";
 import GalleryContext from "./GalleryContext";
 import { PublicKey } from "@solana/web3.js";
@@ -56,7 +56,7 @@ const GalleryState = (props) => {
             if (render % 8 === 0) {
             setLoading(false);
             setCollections({ ...unique });
-          }
+            }
           } 
          } catch (error) {
           console.log(error);
