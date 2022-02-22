@@ -37,7 +37,7 @@ const NftDetails = () => {
       console.log("downloaded");
     } catch (err) {
       console.log(err);
-      alert("Some Error Occurred . ,Can't Downlaod at the moment");
+      alert("Some Error Occurred.Can't Download at the moment");
     }
   };
 
